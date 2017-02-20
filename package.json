@@ -15,7 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-tpka.git"
+    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-tpka.git",
+    "wiki": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-tpka.wiki.git"
   },
   "keywords": [
     "gitbook",
