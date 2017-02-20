@@ -1,17 +1,15 @@
-# Book Title
+# Tareas Iniciales
 
-> Book introduction here.
+Componentes:
+* [Pedro Miguel Lagüera Cabrera](https://plaguera.github.io)
+* [Tarun Mohandas Daryanani](https://alu0100891782.github.io)
+* [Abián Torres Torres](https://alu0100887686.github.io)
 
-## Live Demo
-
-[Check demo!](http://my-user.github.io/my-repo)
-
-## Background
-
-> [gitbook](http://www.gitbook.io) is used to generate github pages.
-
-## Contributing
-
-1. Create Issue
-2. Fork and PR
-
+Tarea en gitbook
+ https://www.gitbook.com/book/alu0100891782/tareas-iniciales-tpka/details
+ 
+ Enunciado de la Práctica
+ https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html
+ 
+ Página de la Asignatura PL16-17
+ https://campusvirtual.ull.es/1617/course/view.php?id=1148
