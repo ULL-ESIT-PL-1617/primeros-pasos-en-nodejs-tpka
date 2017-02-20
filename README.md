@@ -25,3 +25,15 @@ npm run deploy
 # npm run deploy-gitbook && npm run deploy-wiki
 ```
 __Important__: Wiki must be created on Github
+
+# Partcipantes
+
+  * Abián Torres Torres 
+    * Correo: alu0100887686@ull.edu.es
+    * Github: https://github.com/alu0100887686
+  * Tarun Mohandas Daryanani 
+    * Correo: alu0100891782@ull.edu.es
+    * Github: https://github.com/alu0100891782
+  * Pedro Miguel Lagüera Cabrera
+    * Correo: alu0100891485@ull.edu.es
+    * Github: https://github.com/plaguera
