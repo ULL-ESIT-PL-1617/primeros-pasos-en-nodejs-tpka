@@ -36,3 +36,6 @@ __Important__: Wiki must be created on Github
 - Pedro Miguel Lagüera Cabrera:
  * Correo: alu0100891485@ull.edu.es
  * Github: https://github.com/plaguera
+ - Joaquín Sanchiz Navarro:
+ * Correo: alu0100893755@ull.edu.es
+ * Github: https://github.com/joaquinsanchiz
