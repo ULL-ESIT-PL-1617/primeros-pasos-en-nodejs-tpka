@@ -56,7 +56,3 @@ function generateSidebar(config, cb) {
 
     fs.writeFile(config.output, data, cb);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> aa2f63b01fa3fe7acd748e9cf4e7460de12197d9
