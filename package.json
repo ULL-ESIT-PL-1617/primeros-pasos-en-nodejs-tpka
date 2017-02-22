@@ -33,10 +33,10 @@
     "async": "^1.4.0",
     "fs-extra": "^0.22.1",
     "gh-pages": "^0.3.1",
-    "gitbook-cli": "^0.3.4",
     "gitbook": "^2.1.0",
+    "gitbook-cli": "^0.3.4",
     "gulp": "^3.9.1",
-    "gulp-shell": "^0.5.2",
-    "gulp-gh-pages": "^0.5.4"
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-shell": "^0.5.2"
   }
 }
