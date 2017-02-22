@@ -5,6 +5,7 @@ var task = require('shell-task');
 var wiki = require('./package.json').repository.wiki;
 var repogitbook = require('./package.json').repogitbook;
 
+
 gulp.task('deploy', function() {
       return gulp.src('./txt/**/*')
         .pipe(ghPages());
@@ -39,10 +40,15 @@ gulp.task('serve', function() {
 });
 
 gulp.task('deploygb', function() {
+        return gulp.src('').pipe(shell(['node ./scripts/deploy-gitbook.js']));
+});
+
+/*
+gulp.task('deploygb', function() {
 	return gulp.src('').pipe(shell([
-		'cd txt',
-		'git add .',
+		'git add txt',
 		'git commit -m "Deploy in Gitbook"',
 		'git push ' + repogitbook.pedro + " --force"
   ]));
-});
+});*/
+
