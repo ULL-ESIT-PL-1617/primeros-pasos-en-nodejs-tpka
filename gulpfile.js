@@ -43,6 +43,6 @@ gulp.task('deploygb', function() {
 		'cd txt',
 		'git add .',
 		'git commit -m "Deploy in Gitbook"',
-		'git push ' + repogitbook.pedro + "--force"
+		'git push ' + repogitbook.pedro + " --force"
   ]));
 });
