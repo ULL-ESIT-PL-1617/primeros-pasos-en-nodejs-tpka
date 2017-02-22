@@ -28,6 +28,12 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-tpka/issues"
   },
+  "repogitbook": {
+    "abian": "https://git.gitbook.com/alu0100887686/primeros-pasos-nodejs-tpka.git",
+    "joaquin": "https://git.gitbook.com/joaquinsanchiz/primeros-pasos-nodejs-tpka.git",
+    "pedro": "https://git.gitbook.com/plaguera/primeros-pasos-en-nodejs.git",
+    "tarun": "https://git.gitbook.com/alu0100891782/primeros-pasos-nodejs-tpka.git"
+  },
   "homepage": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-tpka/blob/master/README.md",
   "devDependencies": {
     "async": "^1.4.0",

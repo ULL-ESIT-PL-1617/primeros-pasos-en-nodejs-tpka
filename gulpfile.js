@@ -3,6 +3,7 @@ var ghPages = require('gulp-gh-pages');
 var shell = require('gulp-shell');
 var task = require('shell-task');
 var wiki = require('./package.json').repository.wiki;
+var repogitbook = require('./package.json').repogitbook;
 
 gulp.task('deploy', function() {
       return gulp.src('./txt/**/*')
@@ -37,3 +38,11 @@ gulp.task('serve', function() {
         return gulp.src('').pipe(shell(['sudo node hello.js']));
 });
 
+gulp.task('deploygb', function() {
+	return gulp.src('').pipe(shell([
+		'cd txt',
+		'git add ./',
+		'git commit -m "Deploy in Gitbook"',
+		'git push ' + repogitbook.pedro + "--force"
+  ]));
+});
