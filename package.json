@@ -31,6 +31,7 @@
   "homepage": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-tpka/blob/master/README.md",
   "devDependencies": {
     "async": "^1.4.0",
+    "express": "^4.14.1",
     "fs-extra": "^0.22.1",
     "gh-pages": "^0.3.1",
     "gitbook": "^2.1.0",
@@ -38,7 +39,7 @@
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-shell": "^0.5.2",
-    "gulp-shell": "^0.5.2",
-    "shell-task": "^1.0.0"
+    "shell-task": "^1.0.0",
+    "express": "^4.14.1"
   }
 }
