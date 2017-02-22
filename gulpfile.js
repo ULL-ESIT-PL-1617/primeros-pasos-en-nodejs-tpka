@@ -41,7 +41,7 @@ gulp.task('serve', function() {
 gulp.task('deploygb', function() {
 	return gulp.src('').pipe(shell([
 		'cd txt',
-		'git add ./',
+		'git add .',
 		'git commit -m "Deploy in Gitbook"',
 		'git push ' + repogitbook.pedro + "--force"
   ]));
