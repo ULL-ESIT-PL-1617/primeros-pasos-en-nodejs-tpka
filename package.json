@@ -36,7 +36,7 @@
     "gitbook-cli": "^0.3.4",
     "gitbook": "^2.1.0",
     "gulp": "^3.9.1",
-    "gulp-shell": "^0.5.2"i,
+    "gulp-shell": "^0.5.2",
     "gulp-gh-pages": "^0.5.4"
   }
 }
