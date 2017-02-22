@@ -11,14 +11,11 @@ gulp.task('deploy', function() {
 gulp.task('wiki', function() {
 	return gulp.src('').pipe(shell(['./scripts/losh generate-wiki']));
 });
-gulp.task('serve', function() {
-	return gulp.src('').pipe(shell(['gitbook serve --port 43210 `pwd` gh-pages']));
-}); 
 gulp.task('deploygh', function() {
         return gulp.src('').pipe(shell(['node ./scripts/deploy-gh-pages']))
 });
 gulp.task('build', function() {
-        return gulp.src('').pipe(shell(['gitbook build ./txt ./gh-pages']));
+        return gulp.src('').pipe(shell(['sudo gitbook build ./txt ./gh-pages']));
 });
 gulp.task('buildwiki', function() {
         return gulp.src('').pipe(shell(['node ./scripts/generate-wiki.js']));
@@ -37,6 +34,6 @@ gulp.task('deploywiki', function() {
 });
 
 gulp.task('serve', function() {
-        return gulp.src('').pipe(shell(['gitbook serve —port 43210 pwd gh-pages']));
+        return gulp.src('').pipe(shell(['sudo gitbook serve —port 43210 pwd gh-pages']));
 });
 
